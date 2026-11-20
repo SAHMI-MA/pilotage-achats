@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790767657696,
+      "tag": "0000_silky_dragon_lord",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790784361401,
+      "tag": "0001_milky_silver_sable",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1793890678787,
+      "tag": "0002_workbook_import_checkpoint",
+      "breakpoints": true
+    }
+  ]
+}
