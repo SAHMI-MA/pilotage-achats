@@ -1,0 +1,7 @@
+import {activeSuppliers,hasOffer,noParticipationResponse,type Project} from "./project";
+export function performance(projects:Project[]){
+ const suppliers=projects.flatMap(activeSuppliers),eligible=suppliers.filter(s=>s.status!=="ne participe pas"),priced=projects.filter(p=>p.budget!==null&&p.budget>0&&p.finalAmount!==null);
+ const budget=projects.reduce((sum,p)=>sum+(p.budget??0),0),comparableBudget=priced.reduce((sum,p)=>sum+p.budget!,0),finalAmount=priced.reduce((sum,p)=>sum+p.finalAmount!,0);
+ const closed=projects.filter(p=>p.stage==="closed"),cycles=closed.filter(p=>p.aoDate&&p.closedDate&&p.closedDate>=p.aoDate).map(p=>(Date.parse(p.closedDate)-Date.parse(p.aoDate))/86400000);
+ return {total:projects.length,active:projects.filter(p=>p.stage!=="closed"&&p.stage!=="standby").length,closed:closed.length,standby:projects.filter(p=>p.stage==="standby").length,suppliers:suppliers.length,participating:suppliers.filter(s=>s.status==="participe").length,noReply:suppliers.filter(noParticipationResponse).length,refused:suppliers.filter(s=>s.status==="ne participe pas").length,received:eligible.filter(hasOffer).length,eligible:eligible.length,budget,comparableBudget,finalAmount,savings:comparableBudget-finalAmount,savingsRate:comparableBudget?(comparableBudget-finalAmount)/comparableBudget*100:null,priced:priced.length,averageCycle:cycles.length?cycles.reduce((a,b)=>a+b,0)/cycles.length:null,cycleCount:cycles.length};
+}
