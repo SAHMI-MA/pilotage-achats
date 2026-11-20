@@ -1,0 +1,1022 @@
+{
+  "id": "workbook-demo202611150001",
+  "sourceName": "Tableau_demonstration.xlsx",
+  "sourceHash": "438e1c1d7302cefd70c28c76ec6fdb234573179ab5da202a13eb365f51e5093d",
+  "sheet": "Démo",
+  "ownerEmail": "seedy@sites.test",
+  "warnings": [
+    {
+      "row": 10,
+      "rfx": "071007",
+      "field": "cpsDate",
+      "value": "2027-09-24"
+    },
+    {
+      "row": 11,
+      "rfx": "071008",
+      "field": "cpsDate",
+      "value": "2028-09-24"
+    },
+    {
+      "row": 12,
+      "rfx": "071009",
+      "field": "cpsDate",
+      "value": "2029-09-24"
+    }
+  ],
+  "ignoredFormulaZeros": 15,
+  "projects": [
+    {
+      "row": 4,
+      "fields": {
+        "rfx": "71001",
+        "company": "Société Démo 01",
+        "site": "Site Démo 01",
+        "prescriber": "Camille Exemple 01",
+        "title": "Projet de démonstration 01",
+        "segment": "NA24",
+        "segmentTitle": "VRD (voirie, réseau, divers) / Urban engineering (site development : road, water / electricity supply, waste water, …)",
+        "cpsDate": "2026-09-14",
+        "aoDate": "2026-09-14",
+        "deadline": "2026-10-09",
+        "stage": "analysis",
+        "budget": 193413
+      },
+      "note": "Note de démonstration du projet 01. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 01",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 02",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 03",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 04",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 05",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-09-25",
+        "offerReminderDate": "2026-10-06"
+      }
+    },
+    {
+      "row": 5,
+      "fields": {
+        "rfx": "71002",
+        "company": "Société Démo 02",
+        "site": "Site Démo 02",
+        "prescriber": "Camille Exemple 02",
+        "title": "Projet de démonstration 02",
+        "segment": "NA24",
+        "segmentTitle": "VRD (voirie, réseau, divers) / Urban engineering (site development : road, water / electricity supply, waste water, …)",
+        "cpsDate": "2026-09-14",
+        "aoDate": "2026-09-14",
+        "deadline": "2026-10-28",
+        "stage": "analysis",
+        "budget": 170673
+      },
+      "note": "Note de démonstration du projet 02. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 06",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 07",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 08",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 09",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-09-16",
+        "offerReminderDate": "2026-10-25"
+      }
+    },
+    {
+      "row": 6,
+      "fields": {
+        "rfx": "71003",
+        "company": "Société Démo 03",
+        "site": "Site Démo 03",
+        "prescriber": "Camille Exemple 03",
+        "title": "Projet de démonstration 03",
+        "segment": "NA25",
+        "segmentTitle": "Gros œuvre / Clos couvert (Charpente, Menuiserie extérieure, Métallerie, bardage / Étanchéité, Isolation, enseignes) / Building shell work (Framework, Outside carpentry, Metalwork, Siding / Weatherproofing, insulation)",
+        "cpsDate": "2026-09-14",
+        "aoDate": "2026-09-14",
+        "deadline": "2026-10-20",
+        "stage": "analysis",
+        "budget": 227523
+      },
+      "note": "Note de démonstration du projet 03. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 10",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 11",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        },
+        {
+          "name": "Prestataire Démo 12",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-09-16",
+        "offerReminderDate": "2026-10-17"
+      }
+    },
+    {
+      "row": 7,
+      "fields": {
+        "rfx": "071004",
+        "company": "Société Démo 03",
+        "site": "Site Démo 04",
+        "prescriber": "Camille Exemple 04",
+        "title": "Projet de démonstration 04",
+        "segment": "NA2D",
+        "segmentTitle": "Dépollution / Cleanup",
+        "cpsDate": "2026-09-18",
+        "aoDate": "2026-09-28",
+        "deadline": "2026-10-16",
+        "stage": "analysis",
+        "budget": 113823
+      },
+      "note": "Note de démonstration du projet 04. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 13",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 14",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        },
+        {
+          "name": "Prestataire Démo 15",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        },
+        {
+          "name": "Prestataire Démo 16",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        },
+        {
+          "name": "Prestataire Démo 10",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-09-30",
+        "offerReminderDate": "2026-10-13"
+      }
+    },
+    {
+      "row": 8,
+      "fields": {
+        "rfx": "071005",
+        "company": "Société Démo 02",
+        "site": "Site Démo 05",
+        "prescriber": "Camille Exemple 05",
+        "title": "Projet de démonstration 05",
+        "segment": "NA27",
+        "segmentTitle": "CVC (climatisation, ventilation, chauffage) et plomberie / HVAC (Heating, ventilation and air conditioning), plumbing",
+        "aoDate": "2026-07-10",
+        "deadline": "2026-10-05",
+        "stage": "standby",
+        "budget": 204783
+      },
+      "note": "Note de démonstration du projet 05. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 17",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 18",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 19",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 20",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 21",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-07-12",
+        "offerReminderDate": "2026-10-02"
+      }
+    },
+    {
+      "row": 9,
+      "fields": {
+        "rfx": "071006",
+        "company": "Société Démo 03",
+        "site": "Site Démo 06",
+        "prescriber": "Camille Exemple 06",
+        "title": "Projet de démonstration 06",
+        "segment": "NA24",
+        "segmentTitle": "VRD (voirie, réseau, divers) / Urban engineering (site development : road, water / electricity supply, waste water, …)",
+        "cpsDate": "2026-09-24",
+        "aoDate": "2026-07-09",
+        "deadline": "2026-09-18",
+        "stage": "closed",
+        "budget": 113823,
+        "finalAmount": 76550
+      },
+      "note": "Note de démonstration du projet 06. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 22",
+          "offers": [
+            83022,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 23",
+          "offers": [
+            82061,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 24",
+          "offers": [
+            73222,
+            78914,
+            76550
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-07-11",
+        "offerReminderDate": "2026-09-15"
+      }
+    },
+    {
+      "row": 10,
+      "fields": {
+        "rfx": "071007",
+        "company": "Société Démo 04",
+        "prescriber": "Camille Exemple 07",
+        "title": "Projet de démonstration 07",
+        "segment": "NA2C",
+        "segmentTitle": "Déconstruction / deconstruction",
+        "cpsDate": "2027-09-24",
+        "aoDate": "2026-09-07",
+        "deadline": "2026-10-09",
+        "stage": "negotiation",
+        "budget": 170673
+      },
+      "note": "Note de démonstration du projet 07. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 25",
+          "offers": [
+            114489,
+            123404,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 26",
+          "offers": [
+            193299,
+            171128,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 27",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 28",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-09-09",
+        "offerReminderDate": "2026-10-06"
+      }
+    },
+    {
+      "row": 11,
+      "fields": {
+        "rfx": "071008",
+        "company": "Société Démo 03",
+        "site": "Site Démo 07",
+        "prescriber": "Camille Exemple 08",
+        "title": "Projet de démonstration 08",
+        "segment": "NA26",
+        "segmentTitle": "Second œuvre (menuiserie intérieure, cloisons, carrelage, peinture, serrurerie, Signalétique intérieure…) / Finishing work (Interior carpentry, partitions, Painting - tiling - flooring & wall-covering)",
+        "cpsDate": "2028-09-24",
+        "aoDate": "2026-07-08",
+        "deadline": "2026-10-07",
+        "stage": "negotiation",
+        "budget": 329853
+      },
+      "note": "Note de démonstration du projet 08. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 29",
+          "offers": [
+            1056929,
+            415969,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 30",
+          "offers": [
+            1538255,
+            330764,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 31",
+          "offers": [
+            1479113,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-07-10",
+        "offerReminderDate": "2026-10-04"
+      }
+    },
+    {
+      "row": 12,
+      "fields": {
+        "rfx": "071009",
+        "company": "Société Démo 03",
+        "site": "Site Démo 08",
+        "prescriber": "Camille Exemple 09",
+        "title": "Projet de démonstration 09",
+        "segment": "NA22",
+        "segmentTitle": "Conception – réalisation et Entreprises Générales / General building companies, Property Developer",
+        "cpsDate": "2029-09-24",
+        "aoDate": "2026-07-23",
+        "deadline": "2026-08-17",
+        "stage": "analysis",
+        "budget": 204783
+      },
+      "note": "Note de démonstration du projet 09. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 32",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 33",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 22",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-07-25",
+        "offerReminderDate": "2026-08-14"
+      }
+    },
+    {
+      "row": 13,
+      "fields": {
+        "rfx": "071010",
+        "company": "Société Démo 03",
+        "site": "Site Démo 07",
+        "prescriber": "Camille Exemple 10",
+        "title": "Projet de démonstration 10",
+        "segment": "NA27",
+        "segmentTitle": "CVC (climatisation, ventilation, chauffage) et plomberie / HVAC (Heating, ventilation and air conditioning), plumbing",
+        "cpsDate": "2026-08-10",
+        "aoDate": "2026-08-10",
+        "deadline": "2026-11-04",
+        "stage": "ao",
+        "budget": 113823
+      },
+      "note": "Note de démonstration du projet 10. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 34",
+          "offers": [
+            102228,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 35",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 36",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 37",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 04",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-08-12",
+        "offerReminderDate": "2026-11-01"
+      }
+    },
+    {
+      "row": 14,
+      "fields": {
+        "rfx": "071011",
+        "company": "Société Démo 05",
+        "site": "Site Démo 09",
+        "prescriber": "Camille Exemple 11",
+        "title": "Projet de démonstration 11",
+        "segment": "NA29",
+        "segmentTitle": "Protection Incendie (sprinklage, extinction gaz) / Fire protection (Sprinklers, gas extinguishing)",
+        "cpsDate": "2026-10-06",
+        "aoDate": "2026-10-26",
+        "deadline": "2026-11-06",
+        "stage": "ao",
+        "budget": 68343
+      },
+      "note": "Note de démonstration du projet 11. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 38",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 39",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 40",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-10-28",
+        "offerReminderDate": "2026-11-03"
+      }
+    },
+    {
+      "row": 15,
+      "fields": {
+        "rfx": "071012",
+        "company": "Société Démo 02",
+        "site": "Site Démo 10",
+        "prescriber": "Camille Exemple 12",
+        "title": "Projet de démonstration 12",
+        "segment": "NA25",
+        "segmentTitle": "Gros œuvre / Clos couvert (Charpente, Menuiserie extérieure, Métallerie, bardage / Étanchéité, Isolation, enseignes) / Building shell work (Framework, Outside carpentry, Metalwork, Siding / Weatherproofing, insulation)",
+        "cpsDate": "2026-10-14",
+        "aoDate": "2026-10-14",
+        "deadline": "2026-11-06",
+        "stage": "ao",
+        "budget": 170673
+      },
+      "note": "Note de démonstration du projet 12. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 22",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 41",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-10-16",
+        "offerReminderDate": "2026-11-03"
+      }
+    },
+    {
+      "row": 16,
+      "fields": {
+        "rfx": "071013",
+        "company": "Société Démo 06",
+        "site": "Site Démo 11",
+        "prescriber": "Camille Exemple 13",
+        "title": "Projet de démonstration 13",
+        "segment": "NA27",
+        "segmentTitle": "CVC (climatisation, ventilation, chauffage) et plomberie / HVAC (Heating, ventilation and air conditioning), plumbing",
+        "cpsDate": "2026-10-14",
+        "aoDate": "2026-10-15",
+        "deadline": "2026-11-15",
+        "stage": "ao",
+        "budget": 113823
+      },
+      "note": "Note de démonstration du projet 13. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 42",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 43",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 44",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 45",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 46",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-10-17",
+        "offerReminderDate": "2026-11-12"
+      }
+    },
+    {
+      "row": 17,
+      "fields": {
+        "rfx": "071014",
+        "company": "Société Démo 07",
+        "site": "Site Démo 12",
+        "prescriber": "Camille Exemple 14",
+        "title": "Projet de démonstration 14",
+        "segment": "NA29",
+        "segmentTitle": "Protection Incendie (sprinklage, extinction gaz) / Fire protection (Sprinklers, gas extinguishing)",
+        "cpsDate": "2026-10-15",
+        "aoDate": "2026-10-20",
+        "deadline": "2026-11-25",
+        "stage": "ao"
+      },
+      "note": "Note de démonstration du projet 14. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 47",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 48",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 49",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        },
+        {
+          "name": "Prestataire Démo 50",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-10-22",
+        "offerReminderDate": "2026-11-22"
+      }
+    },
+    {
+      "row": 18,
+      "fields": {
+        "company": "Société Démo 08",
+        "site": "Site Démo 13",
+        "prescriber": "Camille Exemple 15",
+        "title": "Projet de démonstration 15",
+        "segment": "NA27",
+        "segmentTitle": "CVC (climatisation, ventilation, chauffage) et plomberie / HVAC (Heating, ventilation and air conditioning), plumbing",
+        "cpsDate": "2026-10-15",
+        "stage": "analysis",
+        "budget": 109275
+      },
+      "note": "Note de démonstration du projet 15. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 51",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 52",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {}
+    },
+    {
+      "row": 19,
+      "fields": {
+        "rfx": "071016",
+        "company": "Société Démo 07",
+        "site": "Site Démo 14",
+        "prescriber": "Camille Exemple 16",
+        "title": "Projet de démonstration 16",
+        "segment": "NA25",
+        "segmentTitle": "Gros œuvre / Clos couvert (Charpente, Menuiserie extérieure, Métallerie, bardage / Étanchéité, Isolation, enseignes) / Building shell work (Framework, Outside carpentry, Metalwork, Siding / Weatherproofing, insulation)",
+        "cpsDate": "2026-10-16",
+        "aoDate": "2026-10-22",
+        "deadline": "2026-11-20",
+        "stage": "ao",
+        "budget": 319620
+      },
+      "note": "Note de démonstration du projet 16. Données entièrement fictives.",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 53",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 54",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        },
+        {
+          "name": "Prestataire Démo 55",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "pas de retour"
+        },
+        {
+          "name": "Prestataire Démo 56",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 57",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-10-24",
+        "offerReminderDate": "2026-11-17"
+      }
+    },
+    {
+      "row": 20,
+      "fields": {
+        "rfx": "71017",
+        "company": "Société Démo 04",
+        "site": "Site Démo 15",
+        "prescriber": "Camille Exemple 17",
+        "title": "Projet de démonstration 17",
+        "segment": "NA26",
+        "segmentTitle": "Second œuvre (menuiserie intérieure, cloisons, carrelage, peinture, serrurerie, Signalétique intérieure…) / Finishing work (Interior carpentry, partitions, Painting - tiling - flooring & wall-covering)",
+        "cpsDate": "2026-10-30",
+        "aoDate": "2026-11-02",
+        "deadline": "2026-11-10",
+        "stage": "ao",
+        "budget": 79713
+      },
+      "note": "",
+      "suppliers": [
+        {
+          "name": "Prestataire Démo 58",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 59",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "participe"
+        },
+        {
+          "name": "Prestataire Démo 60",
+          "offers": [
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Prestataire Démo 61",
+          "offers": [
+            null,
+            null,
+            null
+          ]
+        },
+        {
+          "name": "Prestataire Démo 62",
+          "offers": [
+            null,
+            null,
+            null
+          ],
+          "status": "ne participe pas"
+        }
+      ],
+      "initialReminderDates": {
+        "participationReminderDate": "2026-11-04",
+        "offerReminderDate": "2026-11-07"
+      }
+    }
+  ]
+}
