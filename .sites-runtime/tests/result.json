@@ -1,0 +1,6 @@
+{
+  "checks": 38,
+  "passed": true,
+  "browserQA": "unavailable",
+  "webMCPValidation": "unavailable: no permitted browser context"
+}
